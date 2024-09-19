@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import React, { useState } from 'react';
 
 export default function ContactUs() {
-  const [text, setText] = useState<string>('Say Hi');
+  const [text, setText] = useState<string>('Say Hi! 👋');
 
   const sendToWhatsApp = (event: React.FormEvent) => {
     event.preventDefault(); // Prevent form refresh
